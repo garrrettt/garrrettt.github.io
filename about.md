@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+![Profile Image](/{{ site.picture }})
 
 <h2>Skills</h2>
 <p>I have primarily worked with Flutter for app development and React for web development. I have also worked with Java for class projects. See my projects page for more info.</p>
