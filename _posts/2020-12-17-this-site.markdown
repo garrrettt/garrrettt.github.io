@@ -1,0 +1,34 @@
+---
+title: "This Site"
+layout: post
+date: 2020-12-18 00:00
+image: /assets/images/favicon/favicon.ico
+headerImage: true
+category: blog
+author: garrett
+description: My portfolio site!
+projects: true
+skills: Jekyll, Ruby
+weight: 3
+---
+**Skills:** Jekyll, Ruby
+
+**GitHub link:**
+[https://github.com/garrrettt/garrrettt.github.io](https://github.com/garrrettt/garrrettt.github.io)
+
+#### Why Jekyll?
+I chose to modify an existing Jekyll theme because I believed that would be the most efficient and
+customizable way to make a portfolio website. I could have chosen to make a custom site in React,
+perhaps with Gatsby or Next, but since I have some Ruby knowledge (I learned Ruby on
+Rails on Codecademy years ago), I figured that it would be easy enough to download and customize a
+Jekyll theme and customize it to my liking. 
+
+In terms of development philosophy, I think it's important to ship a product, and the language and
+framework should be chosen to guarentee that a good product ships. That's exactly why I chose to use
+Jekyll because I knew that would be the fastest way to write a personal website. 
+
+With all that said, I hope you like it! Feedback is always appreciated via GitHub issues if you
+notice bugs or have a suggestion. 
+
+Credits to [https://github.com/sergiokopplin](https://github.com/sergiokopplin) for the 
+[base theme](https://github.com/sergiokopplin/indigo). 

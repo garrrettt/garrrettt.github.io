@@ -1,0 +1,83 @@
+---
+title: "Amber UI"
+layout: post
+date: 2020-08-31 16:17
+image: "/assets/images/OtM and Amber/Amber/react.png"
+headerImage: true
+category: blog
+author: garrett
+description: Amber, a React project to preserve local history
+projects: true
+skills: React, Typescript, Storybook, Tailwind CSS
+weight: 2
+---
+
+**Skills:** React, Typescript, Storybook, Tailwind CSS
+
+**GitHub link:** [https://github.com/TheEarlyNerd/amber](https://github.com/TheEarlyNerd/amber)
+
+Amber is a React project built for the city of Maryville, TN so that anyone can write about local
+history and create walking tours between points of interest. Unfortunately due to COVID-19, this
+project was put on hold indefinitely, but the screens for the frontend have been completed.
+
+You might notice that I'm not the owner of the GitHub repo. Originally, this project was going to be
+done together with [Kaleb Davenport](https://github.com/TheEarlyNerd), but he unfortunately had an
+unexpected obligation very shortly after starting, so I wrote almost all the code you can see in the
+GitHub repo.
+
+## Technical Overview
+#### Storybook 
+Below, you can see how I used Storybook to isolate the development of each component in the React
+web app. This visually documents all components for other developers to look through and reuse. 
+<div>
+    <img class="image" 
+      src="/assets/images/OtM and Amber/Amber/Storybook.gif" 
+      alt="An animation showing how I used Storybook for component-driven development.">
+    <figcaption class="caption">How I used Storybook for component-driven development.</figcaption>
+</div>
+
+#### Typescript
+I used Typescript as a way of making sure the data flowing through Amber wouldn’t cause runtime
+errors. I made sure to type every method, argument, and variable.
+
+#### Tailwind
+Tailwind is a composable non-opinionated CSS utility library. In other words, Tailwind has already defined generic CSS base classes but only describes the attributes of a component and does not try to force certain button styles or any other component styles.
+
+#### Home Page
+The home page is composed of a map with clickable points of interest, a header with a search bar and
+navigation buttons, and a footer. 
+<div>
+    <img class="image" 
+      src="/assets/images/OtM and Amber/Amber/Home Page.gif" 
+      alt="An animation showing the home page of Amber.">
+    <figcaption class="caption">The home page of Amber, with a map to find points of interest.</figcaption>
+</div>
+
+#### Article Creator
+The article creator is a single React component that dynamically switches out the current form
+screen. Each screen is passed a function to tell the article creator form when the user can move on
+to the next screen in the form. Form screens are passed in via an array and thus can be easily
+changed, reordered, or added onto. 
+<div>
+    <img class="image" 
+      src="/assets/images/OtM and Amber/Amber/Article Creation Form.gif" 
+      alt="An animation showing the article creation form for Amber.">
+    <figcaption class="caption">The article creation form.</figcaption>
+</div>
+
+#### Walking Tour Creator
+The walking tour creator makes use of React DnD, an unopinionated drag-and-drop library for React.
+Adding an article to a walking tour is as easy as dragging it from the list of articles on the right
+over to the left. Once dropped, the user is prompted to add directions from the last point of
+interest. Each article already includes a location, so the directions are supposed to provide a
+guide from how to get to and from these locations. To remove an unwanted article from the walking
+tour, a user can simply drag it bag over into the list of articles.
+<div>
+    <img class="image" 
+      src="/assets/images/OtM and Amber/Amber/Drag n Drop.gif" 
+      alt="An animation showing the drag and drop editor for walking tours.">
+    <figcaption class="caption">The drag and drop editor for walking tours</figcaption>
+</div>
+
+#### Authentication form
+In terms of UI, there’s not much complexity in the authentication form where a user can sign up or sign in. However, I designed an Authentication class with methods to `signup` and `login` so that the authentication form relies on these methods instead of tightly coupling the authentication to a specific library like Firebase by calling Firebase specific methods within the authentication form.
