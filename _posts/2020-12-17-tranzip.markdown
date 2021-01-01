@@ -17,7 +17,11 @@ weight: 8
 **GitHub link:** [https://github.com/garrrettt/tranzip](https://github.com/garrrettt/tranzip)
 
 I made Tranzip with my friend [Kaleb Davenport](https://github.com/theearlynerd/) in November of
-2016 for CodeTN. We wanted to make Tranzip to address the problem that students were getting on the wrong buses
+2016 for CodeTN. In terms of technical details, I built the backend database with MongoDB and server
+with Node.js. I also wrote the front-end Javascript, like the interactions you see with the map. My
+friend Kaleb worked on the CSS and general layout of the site.
+
+We wanted to make Tranzip to address the problem that students were getting on the wrong buses
 because they didn't know which one they rode on. After asking around, we learned that the bus system 
 was all done on physical maps and was difficult to find information about as a student. So we
 decided to build a web app that allows administrators to easily build and edit bus routes while also
@@ -25,9 +29,8 @@ allowing students to find their bus routes easily.
 
 Unfortunately, after CodeTN concluded and we had finished our project, the administrators at our 
 local school system did not want to adopt a new bus system. Regardless, it displays my knowledge of 
-Express.js as well as MongoDB and basic authentication.
-
-This site also features authentication by hashing and salting a username and password to store in
+Express.js as well as MongoDB and basic authentication. This site also features authentication by 
+hashing and salting a username and password to store in
 the server and then authenticating by checking a hashed password againsted the stored hash. I used
 the bcrypt.js library to hash and salt the passwords.
 
