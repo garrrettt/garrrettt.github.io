@@ -10,7 +10,7 @@ I have primarily worked with Flutter for app development and React for web devel
 Aside from specific technologies, I believe that good documentation and abstraction are critical for
 high quality code. Documenting my code with descriptions, well thought out types, and a README is
 essential for other programmers to understand and work with my code quickly. I believe that good
-code is loosely coupled and modular leading to high maintainability and adaptability to changing
+code is tested, loosely coupled, and modular, leading to high maintainability and adaptability to changing
 business needs.
 
 <h2>Education</h2>
