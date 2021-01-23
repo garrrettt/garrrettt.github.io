@@ -38,7 +38,7 @@ Here are a few screen recordings to demonstrate functionality.
 
 #### Searching for a bus route
 <img class="image" src="/assets/images/Tranzip/search address.gif" alt="Searching for your bus routes in our database of bus routes.">
-Above, you can see me searching for an address to find which buses I should go use. The site returns
+Above, you can see me searching for an address to find which buses I should use. The site returns
 the routes that are closest to the given address. We only loaded in a handful of addresses from
 various official routes to test the site, so the results shown are not as large as a full bus route.
 
