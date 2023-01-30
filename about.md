@@ -25,7 +25,3 @@ produce.
 
 <h2>Hobbies</h2>
 Recently, I've been playing a lot of guitar! It's been a lot of fun, and I'm hoping to get to a point where I can jam with other musicians! I also love rock climbing, long-distance cycling, and disc golf!
-
-That said, I’m always happy to try something new! Here's me finally juggling after a lot of practice.
-
-<img class="image" src="/assets/images/Myself/juggling.gif" alt="A picture of myself juggling. I learned how to juggle a few months ago.">
