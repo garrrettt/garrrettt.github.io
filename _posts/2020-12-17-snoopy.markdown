@@ -12,6 +12,8 @@ skills: Typescript, HTML5 Canvas
 weight: 2
 ---
 
+# (Under Construction 2/28/23, formatting is being fixed. In the meantime, see the github README)
+
 **Skills:** Typescript, HTML5 Canvas
 
 **GitHub link:** [https://github.com/snoopy-team/snoopy-client](https://github.com/snoopy-team/snoopy-client)
