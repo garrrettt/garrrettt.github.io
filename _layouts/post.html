@@ -3,7 +3,9 @@ layout: page
 ---
 
 {% if page.image and page.headerImage %}
-    <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+    <div style="display:flex; justify-content: center;">
+        <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+    </div>
 {% endif %}
 
 <h1 class="title">{{ page.title }}</h1>
