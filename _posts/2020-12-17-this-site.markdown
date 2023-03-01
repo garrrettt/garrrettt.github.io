@@ -2,7 +2,7 @@
 title: "This Site"
 layout: post
 date: 2020-12-18 00:00
-image: /assets/images/favicon/favicon.ico
+image: /assets/images/self-illustration.png
 headerImage: true
 category: blog
 author: garrett
@@ -13,8 +13,7 @@ weight: 3
 ---
 **Skills:** Jekyll, Ruby
 
-**GitHub link:**
-[https://github.com/garrrettt/garrrettt.github.io](https://github.com/garrrettt/garrrettt.github.io)
+**GitHub link:** [https://github.com/garrrettt/garrrettt.github.io](https://github.com/garrrettt/garrrettt.github.io)
 
 #### Why Jekyll?
 I chose to modify an existing Jekyll theme because I believed that would be the most efficient and
