@@ -19,6 +19,8 @@ weight: 1
 **Website Link (Cached from Web Archive)**
 [http://web.archive.org/web/20190327182305/http://nerdgroup.org/](http://web.archive.org/web/20190327182305/http://nerdgroup.org/)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z_wRPtidxf8?si=4Ld8omLEn8TrybwW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 The Nerd Group was a class that I co-founded and co-taught for 3 years for students in grades 7-12,
 from 2016 to 2019. Classes were held once a week during school semesters at a local library. The
 Nerd Group was independent from any particular school and was open to the entire county. I marketed
